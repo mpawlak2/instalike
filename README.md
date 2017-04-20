@@ -1,4 +1,4 @@
-# Instalike - Instagram bot (works without api)
+# Instalike - Instagram bot (No API requirements)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4ZCR74EKJKPDA)
 
 ![Some likes](https://s32.postimg.org/53zwfkat1/Screenshot_2016_05_25_05_20_06_1.png)
@@ -6,7 +6,7 @@
 # Available features
 - Automated likes
 - Automated follows
-- Automated unfollows (requires database connection)
+- Automated unfollows
 - **Compatible with PythonAnywhere - end of README**
 
 # Configuration Guide
@@ -39,10 +39,6 @@ Edit `default.cfg` file
   <tr>
     <td>BOT::EndHour</td>
     <td>Requires option <code>BOT::WorkAtDay</code> set to <code>True</code>. Specify hour at which bot should stop working.</td>
-  </tr>
-  <tr>
-    <td>BOT::LogDBOperations</td>
-    <td>Whether or not to log db queries. <code>True</code> or <code>False</code>.</td>
   </tr>
   <tr>
     <td>BOT::InstaLike</td>
